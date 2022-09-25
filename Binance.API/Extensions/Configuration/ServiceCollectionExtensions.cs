@@ -44,7 +44,7 @@ public static class ServiceCollectionExtensions
 
     public static IServiceCollection RegisterServices(this IServiceCollection services)
     {
-        services.AddTransient<ISymbolPriceService, SymbolPriceService>();
+        services.AddScoped<ISymbolPriceService, SymbolPriceService>();
 
         services.AddScoped<ISymbolRepository, SymbolRepository>();
         services.AddScoped<ISymbolPriceRepository, SymbolPriceRepository>();
