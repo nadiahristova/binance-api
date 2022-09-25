@@ -1,1 +1,1 @@
-# binance-api
+# ice-sync-be
